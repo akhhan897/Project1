@@ -3,6 +3,8 @@ html, body {
   margin: 0;
 }
 
+
+
 body {
   font-family: Tahoma, sans-serif;
   font-size: 40px;
@@ -13,6 +15,8 @@ body {
   flex-wrap: wrap;
   background: linear-gradient(to bottom, #f7f7ff, #eef3ff);
 }
+
+
 
 .box {
   width: 120px;
@@ -26,17 +30,23 @@ body {
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
+
+
 .box:hover {
   transform: translateY(-6px) scale(1.03);
   box-shadow: 0 16px 26px rgba(0, 0, 0, 0.22);
   cursor: pointer;
 }
 
+
+
 .box:last-child {
   background: linear-gradient(to bottom, #687291, #4f5c7a);
   color: white;
   animation: pulse 1.6s ease-in-out infinite;
 }
+
+
 
 @keyframes pulse {
   0% { transform: scale(1); }
