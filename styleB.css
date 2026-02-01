@@ -7,21 +7,26 @@ body {
 body {
     font-family: Tahoma, sans-serif;
     font-size: 40px;
-    white-space: nowrap;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
 }
 
 .box {
-    display: inline-block;
     width: 100px;
     height: 150px;
     background-color: #eeeff2;
     border-left: 10px dotted #D0D0FF;
 
-    padding: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    
     box-sizing: border-box;
 
     margin-right: 10px;
-    vertical-align: top;
 
     text-align: left;
     line-height: 1;
